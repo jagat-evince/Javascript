@@ -114,6 +114,37 @@ const mainData = [
 // Numbers & Maths 
 //-------------------------------------
 
+const score = 400
+// console.log(score);
+
+const newScore = new Number(4040.46233)
+// console.log(newScore);
+// console.log(newScore.toFixed(2));                  4040.46
+// console.log(newScore.toString());    
+// console.log(typeof newScore.toString());           type =  String
+// console.log(newScore.toPrecision(5));              4040.5
+// console.log(newScore.toLocaleString('en-IN'));     40,40,40,400
+
+
+
+// MAths ---------
+// console.log(Math);
+// console.log(Math.abs(-4));                      4    
+// console.log(Math.round(5.63));                  6
+// console.log(Math.ceil(5.3));                    6 
+// console.log(Math.floor(5.93));                  5 
+// console.log(Math.min(1, 5, 10, 1090));          1 
+// console.log(Math.max(1, 5, 10, 1090));          1090 
+
+
+// console.log(Math.random())
+// console.log(Math.floor(Math.random() * 10) + 1)
+
+
+// const Min = 10
+// const Max = 20
+// console.log(Math.floor(Math.random() * (Max - Min + 1)) + Min)
+
 
 //-------------------------------------
 
