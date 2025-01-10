@@ -151,8 +151,59 @@ const newScore = new Number(4040.46233)
 
 
 //-------------------------------------
+// Date and Time 
+//-------------------------------------
+
+let myDate = new Date()
+// console.log(myDate);
+// console.log(myDate.toString());
+// console.log(myDate.toDateString());
+// console.log(myDate.toISOString());
+// console.log(myDate.toLocaleString());
+// console.log(typeof myDate);
+// console.log(`${myDate.getDate()}-${myDate.getMonth()}-${myDate.getFullYear()}`);
+
+// console.log(Math.floor(Date.now() / 1000));
+
+// let newnew = myDate.toLocaleString('default', {
+//     weekday: 'short',
+//     day: '2-digit',
+//     month: '2-digit',
+//     year: '2-digit',
+//     timeZone: 'Asia/Kolkata',
+//     hour: '2-digit',
+//     minute: '2-digit',
+//     second: '2-digit',
+//     hour12: true
+// })
+
+// console.log(newnew);
+
+
+
+//-------------------------------------
+
+// let line = "To print only the hour, minute, and second, you can adjust the toLocaleString method"
+// let word = "only"
+// console.log(`Word ${line.includes(word) ? 'is' : 'is not'} including `)
+
+// let jagatName = "RThis is jojo singh"
+// let Word = "singh"
+// console.log(`The Word "${Word}" ${jagatName.includes(Word) ? ' is' : 'is not'} including`)
+
+
+//-------------------------------------
 // Title 
 //-------------------------------------
+// let line = "hello, this is jagat patel"
+// let word = "thiss"
+// let result = `The word "${word}" ${line.includes(word) ? 'is' : 'is not'} including.`
+// let result = line.slice(4, 8) 
+// let result = line.replace("jagat", "jp") 
+// let result = line.trim(" ", "" ) 
+
+
+// console.log(result);
 
 
 //-------------------------------------
@@ -161,18 +212,18 @@ const newScore = new Number(4040.46233)
 
 
 //-------------------------------------
-// Title 
+// Arrays 
 //-------------------------------------
+// const firstArray = ["jp", "hello", 109, true, null]
+// const newarr = new Array("dcdsc", "dscs", 2, 5)
+// console.log(newarr[1]) 
 
 
-//-------------------------------------
+// Array Methods 
 
 
 
 
-//-------------------------------------
-// Title 
-//-------------------------------------
 
 
 //-------------------------------------
