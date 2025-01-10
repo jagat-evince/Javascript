@@ -221,6 +221,52 @@ let myDate = new Date()
 
 // Array Methods 
 
+const arr = ["aa", "bb", "cc", "dd", "ee", "ff", "gg",] 
+// arr.push("hh")      Addition
+// arr.push("ii")      Addition
+// arr.pop()           Remove Last data
+// arr.pop()           Remove Last data
+// arr.pop()           Remove Last data
+// arr.unshift(3232)      Add data from first
+// arr.shift()            Remove data from first
+// arr.pop()           Remove Last data
+
+// const newarr = arr.join()
+// console.log(arr);
+// console.log(newarr)
+// console.log(typeof newarr)
+
+
+// Slice And Splice 
+
+// const arr = [0, 1, 2, 3, 4, 5]
+// console.log("A ", arr);                 A  [ 0, 1, 2, 3, 4, 5 ]
+// // console.log(arr.slice(2, 5))         [ 2, 3, 4 ]
+// // console.log("B ", arr);              B  [ 0, 1, 2, 3, 4, 5 ]
+// console.log(arr.splice(2, 5));          [ 2, 3, 4, 5 ]
+// console.log("C ", arr);                 C  [ 0, 1 ]
+
+
+// Array Merge 
+
+// const num1 = [0, 1, 2, 3, 4, 5]
+// const num2 = ["|||||", 1, 2, 3, 4, 5]
+// const res = num1.push(num2).      Push Array with []
+// const ress = num1.concat(num2)    Merge Array 
+// const res = [...num1,...num2]       Merge Multiple Arrays 
+// console.log(num1);
+
+// const oneArray = [1, 2, 3, 4, [0, 0, 0, 0], [2, 2, 2, 2, 2, [1, 2, 3, 4, 5]]]   Multiple array hierarchy in one array 
+// const newArr = oneArray.flat(Infinity)
+// console.log(newArr);
+
+
+
+
+
+
+
+
 
 
 
