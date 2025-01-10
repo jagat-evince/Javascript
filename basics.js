@@ -249,7 +249,7 @@ const arr = ["aa", "bb", "cc", "dd", "ee", "ff", "gg",]
 
 // Array Merge 
 
-// const num1 = [0, 1, 2, 3, 4, 5]
+//  const num1 = [0, 1, 2, 3, 4, 5]
 // const num2 = ["|||||", 1, 2, 3, 4, 5]
 // const res = num1.push(num2).      Push Array with []
 // const ress = num1.concat(num2)    Merge Array 
@@ -259,6 +259,16 @@ const arr = ["aa", "bb", "cc", "dd", "ee", "ff", "gg",]
 // const oneArray = [1, 2, 3, 4, [0, 0, 0, 0], [2, 2, 2, 2, 2, [1, 2, 3, 4, 5]]]   Multiple array hierarchy in one array 
 // const newArr = oneArray.flat(Infinity)
 // console.log(newArr);
+
+
+// const forE = num1.forEach(element1 => console.log(element1));
+// console.log(num1)
+
+
+// String to Array conversion 
+// const arrr = "JagatPatel"
+// const neww = Array.from(arrr)
+// console.log(neww)
 
 
 
