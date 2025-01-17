@@ -400,8 +400,84 @@ const obj2 = {3: "c", 4: "d" }
 // console.log(cname);
 
 
+//-------------------------------------
+
+// -----------------------
+// Functions
+// -----------------------
 
 
+// function myfunction() {
+//   console.log("Hello")
+// }
+
+// myfunction()
+
+
+// -----------------------
+// Basic
+// -----------------------
+// function addNum(num1, num2) {
+//   let result = num1 + num2
+//   return result
+// }
+// const result = addNum(999, 21213)
+// console.log(result);
+
+
+// -----------------------
+// Return  and value given to function and print
+// // -----------------------
+// function userLog(username = "Sam") {
+//   // if (username === undefined) {
+//     if (!username) {
+// console.log("No user name given")
+//   }
+// //   else {
+//   return `${username} is just logged in` 
+// // }
+// }
+// console.log(userLog());
+
+
+
+
+// Multiple value 
+
+// function cartPrice(...price) {
+//   return price
+// }
+// console.log(cartPrice(20, 100, 200, 400, 500));   OP : [ 20, 100, 200, 400, 500 ]
+
+
+// function cartPrice1(val1, val2, val3, ...price) {
+//   return price
+// }
+// console.log(cartPrice1(20, 100, 200, 400, 500));     OP : [ 400, 500 ]
+
+
+//---------------------
+// Objects in Functiion 
+//---------------------
+
+const userData1 = {
+  userName: "JP1",
+  phone: 11111111
+}
+const userData2 = {
+  userName: "JP2",
+  phone: 2222222
+}
+const userData3 = {
+  userName: "JP3",
+  phone: 33333333
+}
+
+
+function handleObject(anyobject) {
+  console.log(`username is ${anyobject.userName} and his Phone num is ${anyobject.phone}`);
+}
+handleObject(userData3)
 
 
 //-------------------------------------
