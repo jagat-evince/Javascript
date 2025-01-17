@@ -288,27 +288,118 @@ const neww = Array.of(w, x, y, z)
 
 const mysymbol = Symbol("Keyyy")
 const userData = {
-name: "Jagat Patel",
-[mysymbol] : "1234567890",
-age: 30,
-email: "jagatp290@gmail.com",
-"Test Names" : "HEHEHEHE"
-}
+            name: "Jagat Patel",
+            [mysymbol] : "1234567890",
+            age: 30,
+            email: "jagatp290@gmail.com",
+            "Test Names" : "HEHEHEHE"
+          }
 
 
 // console.log(userData.age);
 // console.log(userData["age"]);
-// console.log(userData["Test Names"]); 
+// console.log(userData["Test Names"], userData["age"]); 
 // console.log(typeof userData[mysymbol]); 
 
 
+// -----------------------
+// Freeze Object
+// -----------------------
 
-userData.name = "Changed name"
-console.log(userData);
+// userData.name = "Changed name"
+// console.log(userData);
 
-// Object.freeze(userData)
-userData.name = "ddasasas"
-console.log(userData);
+// // Object.freeze(userData)
+// userData.name = "ddasasas"
+// console.log(userData);
+
+// -----------------------
+// New Object
+// -----------------------
+
+// const tindUser = new Object()
+
+// tindUser.Id = "dscs1233"
+// tindUser.Name = "JP"
+// tindUser.isLoggein = true
+
+// console.log(tindUser);
+
+// -----------------------
+// Nested Object
+// -----------------------
+
+// const userData = {
+//   name: "Jagat Patel",
+//   age: 30,
+//   email: "jagatp290@gmail.com",
+//   fullName: {
+//     userName: {
+//       FirstName : "Jagat",
+//       LastName: "Patel"
+//     }
+//   }
+// }
+
+// console.log(userData.fullName.userName.FirstName);
+
+// -----------------------
+// Object Merge
+// -----------------------
+
+const obj1 = {1: "a", 2: "b" }
+const obj2 = {3: "c", 4: "d" }
+
+// const res = Object.assign({}, obj1, obj2)
+
+// const res1 = {...obj1, ...obj2}
+
+// console.log(res);    op:{ '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
+// console.log(res1);   op:{ '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
+
+// -----------------------
+// Array Object
+// -----------------------
+
+// const us = [
+//   {
+//     id : 100,
+//     Name : "Jagat"
+//   },
+//   {
+//     id : 2,
+//     Name : "Jaga"
+//   },
+//   {
+//     id : 3,
+//     Name : "Jag"
+//   },
+//   {
+//     id : 4,
+//     Name : "Jagat"
+//   }
+// ]
+// console.log(us[2].Name);
+// console.log(Object.keys(obj1));
+// console.log(Object.values(obj1));
+// console.log(Object.entries(obj1));
+
+// console.log(obj1.hasOwnProperty('1'))
+
+// -----------------------
+// Object Destructure
+// -----------------------
+
+// const courses = {
+//   courseName: "TextDecoderStream",
+//   courseIntructor: "Jagat",
+//   coursePrice: "$24"
+// }
+
+// const {courseName : cname} = courses
+// console.log(cname);
+
+
 
 
 
