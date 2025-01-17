@@ -225,8 +225,6 @@ const arr = ["aa", "bb", "cc", "dd", "ee", "ff", "gg",]
 // arr.push("hh")      Addition
 // arr.push("ii")      Addition
 // arr.pop()           Remove Last data
-// arr.pop()           Remove Last data
-// arr.pop()           Remove Last data
 // arr.unshift(3232)      Add data from first
 // arr.shift()            Remove data from first
 // arr.pop()           Remove Last data
@@ -249,7 +247,7 @@ const arr = ["aa", "bb", "cc", "dd", "ee", "ff", "gg",]
 
 // Array Merge 
 
-//  const num1 = [0, 1, 2, 3, 4, 5]
+ const num1 = [0, 1, 2, 3, 4, 5]
 // const num2 = ["|||||", 1, 2, 3, 4, 5]
 // const res = num1.push(num2).      Push Array with []
 // const ress = num1.concat(num2)    Merge Array 
@@ -262,7 +260,6 @@ const arr = ["aa", "bb", "cc", "dd", "ee", "ff", "gg",]
 
 
 // const forE = num1.forEach(element1 => console.log(element1));
-// console.log(num1)
 
 
 // String to Array conversion 
@@ -272,23 +269,48 @@ const arr = ["aa", "bb", "cc", "dd", "ee", "ff", "gg",]
 
 
 
+// Building an Array 
+const w = 100
+const x = 200
+const y = 300
+const z = 400
 
+const neww = Array.of(w, x, y, z)
+// console.log(neww)
 
-
-
-
-
-
+//-------------------------------------
 
 
 
 //-------------------------------------
-
-
-
+// Objects 
 //-------------------------------------
-// Title 
-//-------------------------------------
+
+const mysymbol = Symbol("Keyyy")
+const userData = {
+name: "Jagat Patel",
+[mysymbol] : "1234567890",
+age: 30,
+email: "jagatp290@gmail.com",
+"Test Names" : "HEHEHEHE"
+}
+
+
+// console.log(userData.age);
+// console.log(userData["age"]);
+// console.log(userData["Test Names"]); 
+// console.log(typeof userData[mysymbol]); 
+
+
+
+userData.name = "Changed name"
+console.log(userData);
+
+// Object.freeze(userData)
+userData.name = "ddasasas"
+console.log(userData);
+
+
 
 
 //-------------------------------------
