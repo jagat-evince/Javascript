@@ -269,14 +269,14 @@ const arr = ["aa", "bb", "cc", "dd", "ee", "ff", "gg",]
 
 
 
-// Building an Array 
-const w = 100
-const x = 200
-const y = 300
-const z = 400
+// // Building an Array 
+// const w = 100
+// const x = 200
+// const y = 300
+// const z = 400
 
-const neww = Array.of(w, x, y, z)
-// console.log(neww)
+// const neww = Array.of(w, x, y, z)
+// // console.log(neww)
 
 //-------------------------------------
 
@@ -286,14 +286,14 @@ const neww = Array.of(w, x, y, z)
 // Objects 
 //-------------------------------------
 
-const mysymbol = Symbol("Keyyy")
-const userData = {
-            name: "Jagat Patel",
-            [mysymbol] : "1234567890",
-            age: 30,
-            email: "jagatp290@gmail.com",
-            "Test Names" : "HEHEHEHE"
-          }
+// const mysymbol = Symbol("Keyyy")
+// const userData = {
+//             name: "Jagat Patel",
+//             [mysymbol] : "1234567890",
+//             age: 30,
+//             email: "jagatp290@gmail.com",
+//             "Test Names" : "HEHEHEHE"
+//           }
 
 
 // console.log(userData.age);
@@ -347,8 +347,8 @@ const userData = {
 // Object Merge
 // -----------------------
 
-const obj1 = {1: "a", 2: "b" }
-const obj2 = {3: "c", 4: "d" }
+// const obj1 = {1: "a", 2: "b" }
+// const obj2 = {3: "c", 4: "d" }
 
 // const res = Object.assign({}, obj1, obj2)
 
@@ -460,24 +460,84 @@ const obj2 = {3: "c", 4: "d" }
 // Objects in Functiion 
 //---------------------
 
-const userData1 = {
-  userName: "JP1",
-  phone: 11111111
-}
-const userData2 = {
-  userName: "JP2",
-  phone: 2222222
-}
-const userData3 = {
-  userName: "JP3",
-  phone: 33333333
-}
+// const userData1 = {
+//   userName: "JP1",
+//   phone: 11111111
+// }
+// const userData2 = {
+//   userName: "JP2",
+//   phone: 2222222
+// }
+// const userData3 = {
+//   userName: "JP3",
+//   phone: 33333333
+// }
 
 
-function handleObject(anyobject) {
-  console.log(`username is ${anyobject.userName} and his Phone num is ${anyobject.phone}`);
-}
-handleObject(userData3)
+// function handleObject(anyobject) {
+//   console.log(`username is ${anyobject.userName} and his Phone num is ${anyobject.phone}`);
+// }
+// handleObject(userData3)
 
 
 //-------------------------------------
+
+
+//---------------------
+// Scope 
+//---------------------
+
+// function one() {
+//   const first = "one Function"
+
+//   function two() {
+//     const second = "Two Function"
+//     console.log(first);
+    
+//   }
+//   two()
+//   // console.log(second);
+// }
+// one()
+
+
+
+// if(true) {
+//   const names = "JP"
+//   if(names === "JP") {
+//     const last = " Patel"
+//     console.log(names + last);
+//   }
+//   // console.log(last);
+  
+// }
+
+// console.log(names);
+
+
+
+function addOne(num) {
+  return num + 1
+}
+console.log(addOne(5));
+
+const addTwo = function(num) {
+  return num + 2
+}
+console.log(addTwo(2));
+
+
+
+//-------------------------------------
+
+
+//---------------------
+// Objects in Functiion 
+//---------------------
+
+//-------------------------------------
+
+
+//---------------------
+// Objects in Functiion 
+//---------------------
