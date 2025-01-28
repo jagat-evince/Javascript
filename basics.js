@@ -1,26 +1,26 @@
 // Type of 
-let a = 111
-let b = "11"
-let c = null
-let d = true
-let f = 12344555666456564n
-let g = function () {}
+// let a = 111
+// let b = "11"
+// let c = null
+// let d = true
+// let f = 12344555666456564n
+// let g = function () {}
 //  console.log(typeof a, typeof b, typeof c, typeof d, typeof e, typeof f, typeof g)
 //  O/p number string object boolean undefined bigint function
 
 // Conversion 
-let isLoggein = 0
-let booleanConv = Boolean(isLoggein)
+// let isLoggein = 0
+// let booleanConv = Boolean(isLoggein)
 // console.log(booleanConv);
 // console.log(typeof booleanConv);
 
 
 // Operation 
-let aa = 100
-++aa
+// let aa = 100
+// ++aa
 
-let bb = 100
-bb++
+// let bb = 100
+// bb++
 
 // console.log(aa + bb);
 
@@ -37,34 +37,34 @@ bb++
 // Heap = non premitive data type and once change the value , also it make that value original and returned the changed value
 
 // Stack----------- 
-let email1 = "jp@email.com"
-let email2 = email1
-email2 = "useratgmail.com"
+// let email1 = "jp@email.com"
+// let email2 = email1
+// email2 = "useratgmail.com"
 // console.log(email1)
 
 // Heap -------------
-let userDataOne = {
-    email: "test@gmail.com",
-    phone: 1234
-}
-let userDataTwo = userDataOne
-userDataTwo.email = "lol@gmail.com"
-userDataTwo.phone = 1111
+// let userDataOne = {
+//     email: "test@gmail.com",
+//     phone: 1234
+// }
+// let userDataTwo = userDataOne
+// userDataTwo.email = "lol@gmail.com"
+// userDataTwo.phone = 1111
 // console.log(userDataTwo.phone, userDataTwo.email);
 //-------------------------------------
 
-const mainData = [
-    { "id": 1, "first_name": "Cristie", "last_name": "Kleinhaut", "email": "ckleinhaut0@washington.edu", "gender": "Female", "ip_address": "163.254.63.185" },
-    { "id": 2, "first_name": "Clare", "last_name": "Sackes", "email": "csackes1@w3.org", "gender": "Female", "ip_address": "78.93.230.11" },
-    { "id": 3, "first_name": "Skylar", "last_name": "   FitzAlan.  ", "email": "sfitzalan2@netvibes.com", "gender": "Male", "ip_address": "35.153.208.18" },
-    { "id": 4, "first_name": "Jim", "last_name": "Pennington", "email": "jpennington3@psu.edu", "gender": "Male", "ip_address": "7.108.237.248" },
-    { "id": 5, "first_name": "Terry", "last_name": "Newnham", "email": "tnewnham4@homestead.com", "gender": "Male", "ip_address": "156.165.143.204" },
-    { "id": 6, "first_name": "Herby", "last_name": "Caswell", "email": "hcaswell5@technorati.com", "gender": "Male", "ip_address": "115.194.86.41" },
-    { "id": 7, "first_name": "Delila", "last_name": "Ruperto", "email": "druperto6@cnet.com", "gender": "Non-binary", "ip_address": "39.113.219.76" },
-    { "id": 8, "first_name": "Maria", "last_name": "Cattemull", "email": "mcattemull7@simplemachines.org", "gender": "Female", "ip_address": "146.151.79.254" },
-    { "id": 9, "first_name": "Elisabetta", "last_name": "Klimentyonok", "email": "eklimentyonok8@thetimes.co.uk", "gender": "Female", "ip_address": "222.206.128.172" },
-    { "id": 10, "first_name": "Zorana", "last_name": "Marusyak", "email": "zmarusyak9@toplist.cz", "gender": "Female", "ip_address": "119.104.96.255" }
-  ]
+// const mainData = [
+//     { "id": 1, "first_name": "Cristie", "last_name": "Kleinhaut", "email": "ckleinhaut0@washington.edu", "gender": "Female", "ip_address": "163.254.63.185" },
+//     { "id": 2, "first_name": "Clare", "last_name": "Sackes", "email": "csackes1@w3.org", "gender": "Female", "ip_address": "78.93.230.11" },
+//     { "id": 3, "first_name": "Skylar", "last_name": "   FitzAlan.  ", "email": "sfitzalan2@netvibes.com", "gender": "Male", "ip_address": "35.153.208.18" },
+//     { "id": 4, "first_name": "Jim", "last_name": "Pennington", "email": "jpennington3@psu.edu", "gender": "Male", "ip_address": "7.108.237.248" },
+//     { "id": 5, "first_name": "Terry", "last_name": "Newnham", "email": "tnewnham4@homestead.com", "gender": "Male", "ip_address": "156.165.143.204" },
+//     { "id": 6, "first_name": "Herby", "last_name": "Caswell", "email": "hcaswell5@technorati.com", "gender": "Male", "ip_address": "115.194.86.41" },
+//     { "id": 7, "first_name": "Delila", "last_name": "Ruperto", "email": "druperto6@cnet.com", "gender": "Non-binary", "ip_address": "39.113.219.76" },
+//     { "id": 8, "first_name": "Maria", "last_name": "Cattemull", "email": "mcattemull7@simplemachines.org", "gender": "Female", "ip_address": "146.151.79.254" },
+//     { "id": 9, "first_name": "Elisabetta", "last_name": "Klimentyonok", "email": "eklimentyonok8@thetimes.co.uk", "gender": "Female", "ip_address": "222.206.128.172" },
+//     { "id": 10, "first_name": "Zorana", "last_name": "Marusyak", "email": "zmarusyak9@toplist.cz", "gender": "Female", "ip_address": "119.104.96.255" }
+//   ]
   
 
 //   console.log(`This is id ${mainData[2].id} and this is last name ${mainData[2].last_name}`);
@@ -114,10 +114,10 @@ const mainData = [
 // Numbers & Maths 
 //-------------------------------------
 
-const score = 400
+// const score = 400
 // console.log(score);
 
-const newScore = new Number(4040.46233)
+// const newScore = new Number(4040.46233)
 // console.log(newScore);
 // console.log(newScore.toFixed(2));                  4040.46
 // console.log(newScore.toString());    
@@ -154,7 +154,7 @@ const newScore = new Number(4040.46233)
 // Date and Time 
 //-------------------------------------
 
-let myDate = new Date()
+// let myDate = new Date()
 // console.log(myDate);
 // console.log(myDate.toString());
 // console.log(myDate.toDateString());
@@ -221,7 +221,7 @@ let myDate = new Date()
 
 // Array Methods 
 
-const arr = ["aa", "bb", "cc", "dd", "ee", "ff", "gg",] 
+// const arr = ["aa", "bb", "cc", "dd", "ee", "ff", "gg",] 
 // arr.push("hh")      Addition
 // arr.push("ii")      Addition
 // arr.pop()           Remove Last data
@@ -247,7 +247,7 @@ const arr = ["aa", "bb", "cc", "dd", "ee", "ff", "gg",]
 
 // Array Merge 
 
- const num1 = [0, 1, 2, 3, 4, 5]
+//  const num1 = [0, 1, 2, 3, 4, 5]
 // const num2 = ["|||||", 1, 2, 3, 4, 5]
 // const res = num1.push(num2).      Push Array with []
 // const ress = num1.concat(num2)    Merge Array 
@@ -426,7 +426,7 @@ const arr = ["aa", "bb", "cc", "dd", "ee", "ff", "gg",]
 
 
 // -----------------------
-// Return  and value given to function and print
+// Return and value given to function and print
 // // -----------------------
 // function userLog(username = "Sam") {
 //   // if (username === undefined) {
@@ -516,15 +516,194 @@ const arr = ["aa", "bb", "cc", "dd", "ee", "ff", "gg",]
 
 
 
-function addOne(num) {
-  return num + 1
-}
-console.log(addOne(5));
+// console.log(addOne(5));    \/ 
+// function addOne(num) {
+//   return num + 1
+// }
 
-const addTwo = function(num) {
-  return num + 2
-}
-console.log(addTwo(2));
+// console.log(addTwo(2));      X
+// const addTwo = function(num) {
+//   return num + 2
+// }
+
+
+
+
+//-------------------------------------
+
+
+//---------------------
+// This & Arrow Function
+//---------------------
+
+// const user = {
+//   name: "JP",
+//   price: 999,
+//   welcomeMessgae: function () {
+//     console.log(`${this.name}, Welcome to the store`); 
+// // console.log(this);
+
+//   }
+// }
+// user.welcomeMessgae()
+// user.name = "JAJAJAJ"
+// user.welcomeMessgae()
+// console.log(this);
+
+//-------------------------------------
+
+// function arrows () {
+//   let usn = "JP"
+//   console.log(this);
+// }
+// arrows()
+
+
+
+
+// const chai = () => {
+//   let usn = "JPPP"
+//   console.log(this); 
+// }
+
+// chai()
+
+
+// const addNum = (num1, num2) => {
+//   return num1 + num2
+// }
+// console.log(addNum(55, 55));
+
+
+// const addNum = (num1, num2) => num1 + num2
+// console.log(addNum(55, 55));
+
+// const addNum = (num1, num2) => (num1 + num2)
+// console.log(addNum(55, 55));
+
+// const addNum = (num1, num2) => ({username: "Hello"})
+// console.log(addNum());
+
+
+
+//-------------------------------------
+
+
+//---------------------
+// IIFE   (function)(value)
+//---------------------
+
+
+// (function dbconnect(){
+//   console.log(`DB Connected`);
+// })();
+
+
+// ((name) => {
+//   console.log(`db again connected to ${name}`);
+// })("Jagat")
+
+//-------------------------------------
+
+
+//---------------------
+// If elseif 
+//---------------------
+
+// const balance = 100
+// if(balance < 900) {
+//     console.log("balance is low");
+// } else if(balance > 900) {
+//     console.log("balance is usable");    
+// }
+// else {
+//     console.log("no balance");    
+// }
+
+
+// && condition checking
+
+// const userLoggein = true
+// const debitcard = true
+// if (userLoggein && debitcard && 2==2)  {
+//     console.log("User can buy courses");
+// }
+// else {
+//     console.log("User is not allowed to buy course");  
+// }
+
+// || condition checking
+
+// const LoggeinfromEmail = false
+// const LoggeinfromGoogle = false
+// const LoggeinfromFacebook = false
+
+// if (LoggeinfromEmail || LoggeinfromGoogle || LoggeinfromFacebook) {
+//     console.log("User can Login");
+// }
+// else {
+//     console.log("User is not allowed to Login");  
+// }
+
+
+// Switch Case 
+
+// const Month = 1
+// switch (Month) {
+//     case 1:
+//        console.log("January");
+//     break;
+//     case 2:
+//        console.log("Feb");
+//     break;
+//     case 3:
+//        console.log("March");
+//     break;
+//     case 4:
+//        console.log("April");
+//     break; 
+//     default:
+//         console.log("Default Month")
+//     break;
+// }
+
+
+// Falsy Value
+// const useremail = ""         //Falsy
+// const useremail = 0          //Falsy
+// const useremail = -0         //Falsy
+// const useremail = undefined  //Falsy
+// const useremail = null       //Falsy
+// const useremail = NaN        //Falsy
+
+// Truthy Value
+// const useremail = true.      //Truthy
+// const useremail = BigInt     //Truthy
+// const useremail = "0"        //Truthy
+// const useremail = "false"    //Truthy
+// const useremail = " "        //Truthy
+// const useremail = {}         //Truthy
+// const useremail = []         //Truthy
+// const useremail = function() {}     //Truthy
+
+
+// if (useremail)  {
+//     console.log("User email found");
+// }
+// else {
+//     console.log("User email is not found");  
+// }
+
+
+
+//Terniary operator. //
+
+// Condition ? true : false. 
+
+// const result = 100
+// result >= 500 ? console.log("right") : console.log("wrong");
+
+
 
 
 
@@ -534,6 +713,8 @@ console.log(addTwo(2));
 //---------------------
 // Objects in Functiion 
 //---------------------
+
+
 
 //-------------------------------------
 
