@@ -704,6 +704,77 @@
 // result >= 500 ? console.log("right") : console.log("wrong");
 
 
+//-------------------------------------
+
+
+//---------------------
+// For Loop with Break & Continue  (Iterations = Loop)
+//---------------------
+// for (let newVar = 0; newVar <= 10; newVar++) {
+//     const element = newVar;
+//     console.log(element)
+// }
+
+// for with If condition//
+
+// for( i = 0; i <= 10; i++ ) {
+    
+//     const value = i;
+
+//         if(value == 5) {
+//             console.log('5 is called Five');   
+//         } else if (value == 7) {
+//             console.log('7 is also called Five');   
+//         }
+    
+//     console.log(value);  
+// }
+
+
+
+// Matrix table print using inner for loop 
+
+// for (let i = 11; i <= 20; i++) {
+//     console.log(`Table of ${i} is below`);
+    
+//     for (let j =1; j <= 10; j++) {
+//         console.log(i + '*' + j + '=' + i*j);   
+//     }  
+// }
+
+
+
+// Array in for loop 
+
+// let arr = ["Hello", "This is", "Jagat"]
+// console.log(arr.length);
+
+// for (let index = 0; index < arr.length; index++) {    
+//     const element = arr[index];
+//     console.log(element);
+// }
+
+// Break and Continue in For loop 
+
+// for (let index = 0; index < 20; index++) {
+//     if (index == 6) {
+//         console.log("6 is detected");
+//         break
+//     }
+//     console.log(index);
+// }
+
+// for (let index = 0; index < 20; index++) {
+//     if (index == 6) {
+//         console.log("6 is detected");
+//         continue
+//     }
+//     else if (index == 12) {
+//         console.log("12 is detected");
+//         break
+//     }
+//     console.log(index);
+// }
 
 
 
@@ -711,14 +782,32 @@
 
 
 //---------------------
-// Objects in Functiion 
+// While and do while loop 
 //---------------------
 
+// Simple 
+
+// let a = 1
+// while (a <= 10) {
+//     console.log(`value is ${a}`); 
+//     a++;  
+// }
 
 
-//-------------------------------------
+
+// Array 
+
+// let arr = ["gfx", "dcds", "fvds"]
+// let a = 0
+// while (a < arr.length) {
+//     console.log(`value is ${arr[a]}`);
+//     a++;  
+// }
 
 
-//---------------------
-// Objects in Functiion 
-//---------------------
+// Do While 
+// let score = 11
+// do {
+//     console.log(`value is ${score}`);
+//     score++;
+// } while (score <= 10);
