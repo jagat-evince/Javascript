@@ -820,6 +820,21 @@
 // Forof loop 
 //---------------------
 
+// ::::::Maps:::::
+// const newMap = new Map
+// newMap.set('IN', "India")
+// newMap.set('FR', "France")
+// newMap.set('PR', "Paris")
+
+// // console.log(newMap);
+// for (const [key, value] of newMap) {
+//     console.log(`${value} is full name of ${key}`);
+// }
+
+
+
+
+
 // const arr = [111, 222, 333, 555]
 // const str = "Hello World"
 
@@ -834,7 +849,7 @@
 
 
 //---------------------
-// For In Loop
+// For In Loop with object and array
 //---------------------
 // const myObj = {
 //     one: "o n e",
@@ -847,15 +862,114 @@
 //     console.log(`key is ${key} and value is ${myObj[key]}`);
 // }
 
-
-
+// const arr = ["one", "two", "three", "one", "two", "three"]
+// for (const key in arr) {
+//     console.log(arr[key]);  
+// }
 
 //-------------------------------------
 
 
 //---------------------
-// While and do while loop 
+// Foreach loop 
 //---------------------
+
+// Normal function 
+// const arr = ["one", "two", "three", "one", "two", "three"]
+// arr.forEach(function (value) {
+//     console.log(`value of array is ${value}`);
+// })
+
+
+// Arrow function 
+// const arr = ["one", "two", "three", "one", "two", "three"]
+// arr.forEach((value, index, arr) => {
+//     // console.log(`value of array is ${value}, Index is ${index} and array is ${arr} `);
+//     console.log(value, index, arr);
+// })
+
+
+// Array with object data access 
+
+// const database = [
+//     {
+//         FirstName: "Jagat",
+//         LastName: "Patel"
+//     },
+//     {
+//         FirstName: "Jagat1",
+//         LastName: "Patel"
+//     },
+//     {
+//         FirstName: "Jagat2",
+//         LastName: "Patel"
+//     },
+//     {
+//         FirstName: "Jagat3",
+//         LastName: "Patel"
+//     }
+// ]
+
+// database.forEach( (UserName) => {
+//     console.log(UserName.FirstName);
+    
+// })
+
+//---------------------
+// conditional loop with filter
+//---------------------
+
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// const newNum = arr.filter( (num) => {
+//         return num > 4
+//     })
+// console.log(newNum);
+
+//---------------------
+// conditional loop with foreach
+//---------------------
+
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// const newArr = []
+// arr.forEach( (num) => {
+//         if(num > 2) {
+//             newArr.push(num)
+//         }
+//     })
+// console.log(newArr);
+
+
+
+// Get the specific filter data asked by user 
+
+// const mainData = [
+//     { "id": 1, "first_name": "Elisabetta", "last_name": "Ruperto", "email": "ckleinhaut0@washington.edu", "gender": "Female", "ip_address": "163.254.63.185", "Year": "1993" },
+//     { "id": 2, "first_name": "Clare", "last_name": "Sackes", "email": "csackes1@w3.org", "gender": "Female", "ip_address": "78.93.230.11", "Year": "1993" },
+//     { "id": 3, "first_name": "Skylar", "last_name": "Cattemull", "email": "sfitzalan2@netvibes.com", "gender": "Male", "ip_address": "35.153.208.18", "Year": "2003" },
+//     { "id": 4, "first_name": "Jim", "last_name": "Ruperto", "email": "jpennington3@psu.edu", "gender": "Male", "ip_address": "7.108.237.248", "Year": "2010" },
+//     { "id": 5, "first_name": "Terry", "last_name": "Newnham", "email": "tnewnham4@homestead.com", "gender": "Male", "ip_address": "156.165.143.204", "Year": "1993" },
+//     { "id": 6, "first_name": "Skylar", "last_name": "Cattemull", "email": "hcaswell5@technorati.com", "gender": "Male", "ip_address": "115.194.86.41", "Year": "1993" },
+//     { "id": 7, "first_name": "Delila", "last_name": "Ruperto", "email": "druperto6@cnet.com", "gender": "Non-binary", "ip_address": "39.113.219.76", "Year": "2000" },
+//     { "id": 8, "first_name": "Skylar", "last_name": "Cattemull", "email": "mcattemull7@simplemachines.org", "gender": "Female", "ip_address": "146.151.79.254", "Year": "1993" },
+//     { "id": 9, "first_name": "Elisabetta", "last_name": "Ruperto", "email": "eklimentyonok8@thetimes.co.uk", "gender": "Female", "ip_address": "222.206.128.172", "Year": "1993" },
+//     { "id": 10, "first_name": "Skylar", "last_name": "Marusyak", "email": "zmarusyak9@toplist.cz", "gender": "Female", "ip_address": "119.104.96.255", "Year": "1993" }
+//   ]
+
+// let YearFilter = mainData.filter( (year) => {
+//     return year.Year >= 2000;
+// })
+// console.log(YearFilter);
+
+// let newFilt = mainData.filter( (firstname) => {
+//     return firstname.first_name === "Skylar"
+// })
+
+// let newfilt = mainData.filter( (firstname) => {
+//     return firstname.gender === "Male"
+// })
+// console.log(newfilt);
+
+
 
 //-------------------------------------
 
