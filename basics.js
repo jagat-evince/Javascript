@@ -651,7 +651,7 @@
 // const Month = 1
 // switch (Month) {
 //     case 1:
-//        console.log("January");
+    //    console.log("January");
 //     break;
 //     case 2:
 //        console.log("Feb");
@@ -795,7 +795,7 @@
 
 
 
-// Array 
+// While with Array 
 
 // let arr = ["gfx", "dcds", "fvds"]
 // let a = 0
@@ -806,8 +806,74 @@
 
 
 // Do While 
+
 // let score = 11
 // do {
 //     console.log(`value is ${score}`);
 //     score++;
 // } while (score <= 10);
+
+//-------------------------------------
+
+
+//---------------------
+// Forof loop 
+//---------------------
+
+// const arr = [111, 222, 333, 555]
+// const str = "Hello World"
+
+// for (const element of str) {
+//     if (element === " ") {
+//         continue
+//     }
+//     console.log(element);
+// }
+
+//-------------------------------------
+
+
+//---------------------
+// For In Loop
+//---------------------
+// const myObj = {
+//     one: "o n e",
+//     two: "t w o",
+//     three: "t h r e e"
+// }
+// // console.log(myObj);
+
+// for (const key in myObj) {
+//     console.log(`key is ${key} and value is ${myObj[key]}`);
+// }
+
+
+
+
+//-------------------------------------
+
+
+//---------------------
+// While and do while loop 
+//---------------------
+
+//-------------------------------------
+
+
+//---------------------
+// While and do while loop 
+//---------------------
+
+//-------------------------------------
+
+
+//---------------------
+// While and do while loop 
+//---------------------
+
+//-------------------------------------
+
+
+//---------------------
+// While and do while loop 
+//---------------------
