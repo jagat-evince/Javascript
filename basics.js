@@ -979,6 +979,38 @@ const mainData = [
 // console.log(newNums);
 
 
+// // :::: Array Reduce ::::
+// const numbers = [1, 2, 3]
+// const total = numbers.reduce( function (acc, curvalue) {
+//     console.log(`Acc is ${acc} and Value is ${curvalue}`);
+    
+//     return acc + curvalue
+// }, 20)
+// console.log(total);
+
+// ::::::: Shopping Cart Total :::::::
+
+const cart = [
+    {
+        itemName : "Laptop",
+        price: 120000
+    },
+    {
+        itemName : "Mobile",
+        price: 87000
+    },
+    {
+        itemName : "Adopter",
+        price: 1900
+    }
+]
+
+const TotalCart = cart.reduce( (acc, itemPrice) => {
+   return acc + itemPrice.price
+}, 0
+)
+console.log(`Total Cart Price is ${TotalCart}`);
+
 //-------------------------------------
 
 
