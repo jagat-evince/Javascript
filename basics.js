@@ -833,8 +833,6 @@
 
 
 
-
-
 // const arr = [111, 222, 333, 555]
 // const str = "Hello World"
 
@@ -954,6 +952,7 @@ const mainData = [
     { "id": 9, "first_name": "Elisabetta", "last_name": "Ruperto", "email": "eklimentyonok8@thetimes.co.uk", "gender": "Female", "ip_address": "222.206.128.172", "Year": "1993" },
     { "id": 10, "first_name": "Skylar", "last_name": "Marusyak", "email": "zmarusyak9@toplist.cz", "gender": "Female", "ip_address": "119.104.96.255", "Year": "1993" }
   ]
+  
 
 // let YearFilter = mainData.filter( (year) => {
 //     return year.Year >= 2000 && year.gender === "Male" && year.first_name === "Skylar"
@@ -973,7 +972,6 @@ const mainData = [
 // ::: Chaining :::::;
 
 // const numbers = [1, 2, 3, 4, 5, 6, 7]
-
 // const newNums = numbers.map( (num) => num * 3)
 //                        .map( (num) => num + 10)
 // console.log(newNums);
@@ -1005,11 +1003,11 @@ const cart = [
     }
 ]
 
-const TotalCart = cart.reduce( (acc, itemPrice) => {
-   return acc + itemPrice.price
-}, 0
-)
-console.log(`Total Cart Price is ${TotalCart}`);
+// const TotalCart = cart.reduce( (acc, itemPrice) => {
+//    return acc + itemPrice.price
+// }, 0
+// )
+// console.log(`Total Cart Price is ${TotalCart}`);
 
 //-------------------------------------
 
